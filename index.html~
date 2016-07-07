@@ -1,0 +1,199 @@
+ <!DOCTYPE html>
+<!-- criado por Guilherme Paes -->
+<html>
+<head>
+<link rel="icon" href="../img/icon.png">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- link para Bootstrap não retirar -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- Tema (pode ser mudado a qualquer hora)-->
+<link rel="stylesheet"  href="http://bootswatch.com/united/bootstrap.min.css">
+<!-- Aqui ficam as minhas modificações aos elementos do bootstrap-->
+<link rel = "stylesheet" href = "./CSS/estilo.css">
+<!--animações-->
+<link rel="stylesheet"  href="./CSS/animate.css">
+
+<title>Clube de Regatas Cachorro do Mato</title>
+</head>
+
+<body>
+<audio "controls" autoplay="autoplay" loop="loop" src="./audio/bombapatch.mp3"></audio>
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class = "row">
+       <div class="container">
+         <div class="navbar-header">
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+           </button>
+           <a class="navbar-brand" href="#"><p>Cachorro do Mato</p></a>
+         </div>
+         <div id="navbar" class="collapse navbar-collapse">
+           <ul class="nav navbar-nav navbar-left">
+            <li><a href="./index.html">Home</a></li>
+             <li><a href="./pags/servicos.html">O manto</a></li>
+             <li><a href="https://www.youtube.com/watch?v=OjyZKfdwlng">História</a></li>
+             <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">MIM ACHER</a></li>
+             </ul></li>
+          
+
+            
+         
+        </div> 
+       </div>
+      </div> 
+     </nav><br><br><br><br>
+
+     <div class = "container">
+
+        <div class="jumbotron">
+          <div class="container">
+            <h1 class="text-center">Programa Sócio Torcedor Cachorro do Mato</h1>
+            <p class=" text-center">
+
+              Confira nosso planos e ajude o cachorrão a construir a sua casa.
+              
+
+            </p>
+            <p class = "text-center">
+              <a class="btn btn-primary btn-lg " href="./pags/descubra.html">DESCUBRA</a>
+            </p>
+          </div>
+        </div>
+
+        <div class = "row">
+
+          <div class = "col-md-3 col-xs-3">
+            <img class = "img-responsive img-rounded" src="./img/destaque.jpg" id="destaque"><br>
+            <p class="text-center"> 
+
+                "O Novo técnico do Cachorro do Mato é o Sr. Waldemar"<br>
+                "Waldemar é o caralho! Oswaldo vai comandar pelo telefone"<br>
+                "AH, AH, AH, FORA WALDEMAR"
+             </p>   
+
+          </div>
+
+           <div class = "col-md-3 col-xs-3">
+              <img class = "img-responsive img-rounded" src="./img/destaque2.jpg" id="destaque2"><br>
+
+             <p class="text-center"> 
+
+                Chuteira oficial do cachorrão.<br>Única chuteira possível.
+             </p>   
+
+
+          </div>
+
+
+
+           <div class = "col-md-3 col-xs-3">
+
+            <img class ="img-responsive img-rounded" src="./img/destaque3.jpg" id="destaque3"><br>
+
+             <p class="text-center"> 
+ 
+               Torcida do cachorrão em jogo válido pela Libertadores
+             </p>   
+
+
+          </div>
+          
+          <div class = "col-md-3 col-xs-3">
+              <img class = "img-responsive img-rounded" src="./img/destaque4.jpg" id="destaque2"><br>
+
+             <p class="text-center"> 
+
+                O Imperador vem aí: Adriano assina com o Cachorrão por 3 anos.
+             </p>   
+
+
+          </div>
+
+
+
+
+        </div>
+        <hr>
+
+        <div class = "row">
+
+          <div class = "col-md-4 col-xs-4">
+            <img class="img-responsive img-rounded" id ="online" src="./img/destaque1.jpg">
+          </div> 
+          <div  class = "col-md-8 col-xs-8">
+            <h2 class="text-primary text-center"> Cachorrão em ação na última Libertadores da América (único torneio possível) </h2>
+
+          </div>
+        </div>
+
+          <hr><br>
+
+          <div class = "row">
+
+          
+          <div  class = "col-md-8 col-xs-8">
+            <h3 class="text-primary text-left"> TRAGAM A MINHA GERAL DE VOLTA!<br>TRAGAM A MINHA SELEÇÃO DE VOLTA!<br>QUE DEUS PERDOE ESSAS PESSOAS RUINS!
+            <br>CHUTEIRA PRETA!<br>FORA ARENAS GOURMET!<br>FORA ZAGUEIROS QUE TIRAM SELFIE!<br>FORA TEMER!</h3>
+
+          </div>
+
+          <div class = "col-md-4 col-xs-4">
+            <img class="img-responsive img-rounded" src="./img/moderno.jpg">
+          </div> 
+        </div><br>
+
+
+
+     </div><!-- fim do container-->
+
+
+
+
+
+
+
+
+
+     <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-xs-6">  
+        <p class="text-muted"><span class="glyphicon glyphicon-copyright-mark"></span> 2016 Guilherme Paes - Licenciado sob WTFPL.
+        </div>
+          <div class = "col-md-2 col-xs-6">
+          <a href="#"><span class = "glyphicon glyphicon-triangle-top"></span> Voltar ao topo</a>
+          <div>
+      </div>
+      </div>
+    </footer>
+
+
+    
+
+
+  
+
+
+
+
+<!-- jQuery e scripts do Bootstrap. Não retirar-->
+<script src = "https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- Meus próprios scripts-->
+<script src = "./scripts/site.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
+  
